@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "storybook": "echo \"==> Run storybook from client directory: cd ..; npm run storybook\n\","
+    "storybook": "echo \"==> Run storybook from client directory: cd ../client; npm run storybook\n\","
   },
   "keywords": [],
   "author": "",
