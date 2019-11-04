@@ -1,0 +1,25 @@
+{
+  "name": "storybook-host",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/addon-actions": "^5.3.0-alpha.38",
+    "@storybook/addon-links": "^5.3.0-alpha.38",
+    "@storybook/addons": "^5.3.0-alpha.38",
+    "@storybook/react": "^5.3.0-alpha.38",
+    "babel-loader": "^8.0.6"
+  }
+}

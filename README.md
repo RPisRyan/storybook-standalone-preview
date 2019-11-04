@@ -4,10 +4,11 @@ Derived from https://github.com/storybookjs/storybook/tree/next/examples/standal
 
 This project demonstrates a preview running in standalone mode using `parcel`.
 
-To run the standalone preview:
+Storybook host `/storybook` and parcel app `/client` are packaged in separate directories. To run the standalone preview:
 
 ```
-npm install
+cd storybook; npm install; cd ..
+cd client; npm install
 npm run storybook
 ```
 
